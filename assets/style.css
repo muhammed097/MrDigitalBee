@@ -1387,7 +1387,7 @@ body {
 }
 
 .footer-logo {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     max-width: 200px;
 }
 
@@ -1855,7 +1855,7 @@ body {
 
 @media screen and (max-width: 992px) {
     .services-cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .faq-columns {
@@ -1888,6 +1888,10 @@ body {
     .footer-col {
         flex: 1 0 40%;
         margin-bottom: 40px;
+    }
+
+    .testimonial-dots {
+        display: none;
     }
 }
 
